@@ -3,9 +3,8 @@ jQuery(document).ready(function($) {
 	oc.each(function() {
 		var el = $(this);
 		el.owlCarousel($.extend({
-			nav:true,
-			rtl:true,
-			navText:['<i class="icon-rightarrow centerfixed" aria-hidden="true"></i>','<i class="icon-leftarrow centerfixed" aria-hidden="true"></i>']
+			nav:false,
+			navText:['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>']
 		}, el.data('option')));
 	});
 });
