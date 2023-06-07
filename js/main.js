@@ -1,3 +1,4 @@
+//----------owl-carousel----------//
 jQuery(document).ready(function($) {
 	var oc = $('.owl-carousel');
 	oc.each(function() {
